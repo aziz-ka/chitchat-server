@@ -1,0 +1,13 @@
+{
+  "name": "chitchat-server",
+  "homepage": "https://chitchat-server.now.sh",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "nodemon": "^1.17.3",
+    "socket.io": "^2.1.0"
+  },
+  "scripts": {
+    "start": "nodemon ./server.js"
+  }
+}
